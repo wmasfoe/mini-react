@@ -5,15 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    html, body {
+      height: 100%;
+    }
+    div#root {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
 
-  <script src="./LReact/index.js"></script>
+  <script src="./lib/index.js"></script>
 
-  <script src="./lib/test.js"></script>
+  <script src="./build/test.js"></script>
+
+  <div id="root"></div>
 
   <script>
-    LReact.render(element, document.body);
+    LReact.render(element, document.getElementById('root'));
   </script>
 </body>
 </html>

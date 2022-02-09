@@ -4,7 +4,7 @@
   "description": "",
   "main": "t.js",
   "scripts": {
-    "babel": "babel src -d lib"
+    "babel": "babel src -d build"
   },
   "author": "",
   "license": "ISC",
