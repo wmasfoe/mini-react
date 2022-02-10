@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src/test.jsx"
+  ],
+  "ignore": [
+    "package.json",
+    "nodemon.json",
+    "node_modules/**/node_modules",
+    ".git"
+  ]
+}
