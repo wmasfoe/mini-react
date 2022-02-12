@@ -3,6 +3,7 @@
     "src/test.jsx"
   ],
   "ignore": [
+    "src/long_task.jsx",
     "package.json",
     "nodemon.json",
     "node_modules/**/node_modules",
